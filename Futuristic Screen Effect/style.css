@@ -57,26 +57,30 @@ body {
 }
 
 .screen > .screen-image {
-  background-image: url("https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+  background-image: url("https://images.unsplash.com/photo-1610312217105-4760d7407a0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y3lhbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: 1;
   left: 0px;
   top: 0px;
-  background-size: 300%;
+  background-size: 125%;
   background-position: 0% 0%;
-  filter: sepia(100%) hue-rotate(160deg);
+  filter: sepia(0%) hue-rotate(10deg);
   opacity: 0.6;
-  animation: pan-image 15s linear infinite;
 }
 
-@keyframes pan-image {
-  from {
-    background-position: 0% 0%;
-  }
-
-  to {
-    background-position: 100% 100%;
-  }
+.screen > .screen-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  gap: 4rem;
+  position: relative;
+  z-index: 3;
+  margin: 1rem;
+  padding-bottom: 6rem;
+  border: 1px solid rgb(var(--primary-rgb) / 50%);
+  border-radius: 0.6rem;
 }
