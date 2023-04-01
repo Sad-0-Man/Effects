@@ -1,5 +1,5 @@
 # Effects
-This repository contains all cool and satisfying skills/ effects I have learnt. Credits for each developer I learnt from should be in a read.me file.
+This repository contains all cool and satisfying skills/ effects I have learnt.
 
 Credits:
   From Hyperplexed: 
